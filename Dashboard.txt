@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body{
+            color:white;
+            margin:0px;
+            
+        }
+        .Dashboard{
+            color:white;
+        }
+        .Dashboard:hover{
+            background-color: blueviolet;
+            padding:20px;
+            font-size:20px;
+        }
+       
+
+    </style>
+    <title>Dashboard</title>
+</head>
+
+<body bgcolor="tomato">
+    <div class="Dashboard">
+        Dashboard
+    </div>
+    
+    
+      <center>  
+          <h1 id="hello" onmouseover="TrilaSoft()" onmouseout="TrilaSofts()" >
+                TrilaSoft Solutions Private Limited Company Noida-201301. 
+           </h1>
+      </center>
+      
+        <script>
+            function TrilaSoft()
+            {
+                document.getElementById("hello").style.backgroundColor="grey";
+                
+            }
+        </script> 
+        <script>
+            function TrilaSofts()
+            {
+                document.getElementById("hello").style.backgroundColor="transparent";
+                
+            }
+        </script> 
+    <br><br><br><br><br>
+    <center><h2>Welcome!</h2></center>
+    
+       
+    
+    
+    
+</body>
+</html>
